@@ -1,13 +1,16 @@
 public class bujursangkar {
-    int keliling ;
-    int sisi = 45;
+   private int keliling ;
+   private int sisi = 45;
 
     public void hitungbujursangkar(){
         keliling = 4*sisi;
-        System.out.println("Keliling Bujursangkar  = "+keliling);
+        //System.out.println("Keliling Bujursangkar  = "+keliling);
     }
-    public static void main (String []gol){
-        bujursangkar bs = new bujursangkar();
-        bs.hitungbujursangkar();
+    public void setKeliling(){
+        this.setKeliling();
+    }
+
+    public int getKeliling() {
+        return keliling;
     }
 }

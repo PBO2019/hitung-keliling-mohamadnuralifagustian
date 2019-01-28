@@ -1,14 +1,27 @@
 public class lingkaran {
-    double r = 50;
-    double phi = 3.14;
-    double luas;
+    private int r = 20;
+    private int phi = 22/7;
+    private double keliling;
 
-    public void hitung(){
-        luas = 2*phi*r;
-        System.out.println("luas jari = "+luas);
+    public lingkaran() {
+
     }
-    public static void main(String[] args) {
-        lingkaran b = new lingkaran();
-        b.hitung();
+
+    public void hitung(int i) {
+        this.keliling = 2 * r * phi;
+    }
+
+     public void setKeliling(int luas){
+        this.keliling = keliling;
+     }
+
+    public int getr() {
+        return r;
+    }
+
+
+
+    public void hitung() {
+        this.keliling = 2 * r * phi;
     }
 }
